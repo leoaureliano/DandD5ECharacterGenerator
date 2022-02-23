@@ -197,13 +197,9 @@ if Parameters == "Y" or Parameters == "y" or Parameters == "yes":
                 
             if ElfSubRace == "High" or ElfSubRace == "Valenar High" or ElfSubRace == "Aereni High":
                 Languages = random.choice(Languages) 
-                while True:
-
-                if Languages == "Elfvish":
+               
+            if Languages == "Elfvish":
                 Languages = random.choice(Languages)
-                break 
-                
-                else: 
                 print("Languages:Common,Elfvish,",Languages)
                 break 
                 
@@ -557,6 +553,9 @@ if Parameters == "Y" or Parameters == "y" or Parameters == "yes":
         if R == "Yuan-Ti Pureblood":
             INT += 1 
             CHA += 2
+        
+        else:
+            print("")
 
    
     if Race == 1:
